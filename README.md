@@ -62,8 +62,8 @@ RideTogether integrates **ThemeParks.wiki API** for live park/ride information a
 ---
 
 ## Wireframes  
-- [View Lo-Fi Wireframes] (Documents/Wireframes/RideTogether_LoFi.pdf)
-*(Mid-Fi & Hi-Fi in progress)
+- [View Lo-Fi Wireframes](Documents/Wireframes/RideTogether_LoFi.pdf)
+*(Mid-Fi & Hi-Fi in progress)*
 
 ---
 
