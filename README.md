@@ -20,6 +20,8 @@ RideTogether solves the problem of group indecision when visiting parks by using
 - Ride details: images, descriptions, park info  
 - Live ride wait times and operating status (ThemeParks.wiki API)  
 - Support for groups of at least 2 people  
+- Filtered Match Results: users can view matches per participants or view all matches combined
+- Revent Activity history showing past park sessions
 
 ---
 
@@ -52,13 +54,16 @@ RideTogether integrates **ThemeParks.wiki API** for live park/ride information a
 - **Intro Screen** → Sign up / Login  
 - **Park + Group Setup** → Choose park + number of people  
 - **Swipe Deck Screen** → Swipe through ride cards (image + description + wait time)  
-- **Match Screen** → Display matched rides for group  
-- **Recent Activity** → View past matches  
+- **Match Screen** → Display matched rides for group
+    - Filter Options: *view matches by each user or ALL users combined*
+- **Recent Activity** → View past matches 
+- **Profile / Settings** → Edit into, view favorite park, log out
 
 ---
 
 ## Wireframes  
-*(TBC: Lo-Fi → Mid-Fi → Hi-Fi wireframe snapshots)*  
+- [View Lo-Fi Wireframes] (Documents/Wireframes/RideTogether_LoFi.pdf)
+*(Mid-Fi & Hi-Fi in progress)
 
 ---
 
@@ -106,7 +111,7 @@ RideTogether integrates **ThemeParks.wiki API** for live park/ride information a
 ## API / Query Playbook  
 **Sample Operations:**  
 - Fetch parks from ThemeParks.wiki → display park selector  
-- Fetch rides + wait times by park → enrich with custom Back4App fields  
+- Fetch rides + wait times by park → enrich with custom Back4App fields 
 - Save user swipe → create Preference entry  
 - Compute matched rides: query Preferences for all users in group → find intersection → create Match entry  
 - Fetch recent matches for user  
@@ -122,7 +127,7 @@ RideTogether integrates **ThemeParks.wiki API** for live park/ride information a
 
 ## Project Status  
 - [X] Product Definition  
-- [ ] Wireframes  
+- [X] Wireframes  
 - [ ] UI Kit in Figma  
 - [ ] External API integrated (ThemeParks.wiki)  
 - [ ] Custom Back4App dataset seeded  
