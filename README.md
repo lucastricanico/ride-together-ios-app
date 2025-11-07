@@ -64,9 +64,10 @@ RideTogether integrates **ThemeParks.wiki API** for live park/ride information a
 ## Wireframes  
 - [View Lo-Fi Wireframes](Documents/Wireframes/RideTogether_LoFi.pdf)
 - [View Mid-Fi Wireframes](Documents/Wireframes/RideTogether_MidFi.pdf)
-- ![RideTogether Mid-Fi Preview](Documents/Wireframes/RideTogether_MidFi.png)
 <p align="center">
-  <img src="docs/Wireframes/RideTogether_MidFi.png" alt="RideTogether Mid-Fi Wireframes" width="850"/>
+  <img src="Documents/Wireframes/RideTogether_MidFi_Preview.png" alt="RideTogether Mid-Fi Preview" width="850"/>
+  <br/>
+  <em>Figure 1 – RideTogether Mid-Fidelity Wireframes showing Login → Profile flow</em>
 </p>
 
 ---
