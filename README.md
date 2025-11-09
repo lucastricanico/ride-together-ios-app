@@ -1,6 +1,14 @@
 # RideTogether iOS App by Lucas Lopez 🎢  
 *A Disney-inspired app that helps friends and families decide which rides to enjoy together at the parks.*
 
+<p align="left">
+  <img src="https://img.shields.io/badge/iOS-17+-lightgrey" />
+  <img src="https://img.shields.io/badge/SwiftUI-ready-blue" />
+  <img src="https://img.shields.io/badge/Data-SwiftData-informational" />
+  <img src="https://img.shields.io/badge/API-ThemeParks.wiki-success" />
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-green"></a>
+</p>
+
 ---
 
 ## Vision  
